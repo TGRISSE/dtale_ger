@@ -11,7 +11,12 @@ import de from './translations/de.json'; ##added by tgrisse
 const language = getHiddenValue('language') || 'en';
 
 i18next.use(initReactI18next).init({
-  resources: { en, cn, pt },
+  resources: { 
+    en, 
+    // cn, 
+    // pt, 
+    de 
+  },
   lng: language,
   fallbackLng: 'en',
   keySeparator: false,
