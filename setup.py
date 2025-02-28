@@ -79,7 +79,7 @@ setup(
     license="LGPL",
     long_description=long_description,
     keywords=["numeric", "pandas", "visualization", "flask"],
-    url="https://github.com/man-group/dtale",
+    url="https://github.com/TGRISSE/dtale_ger.git",
     install_requires=read_file("requirements.txt").splitlines(),
     extras_require={
         "arctic": ["arctic <= 1.79.4"],
